@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HospitalWebMGT.props" />
+</Project>

@@ -1,0 +1,17 @@
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\bin\Debug\net6.0\Hospital.Repositories.deps.json
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\bin\Debug\net6.0\Hospital.Repositories.runtimeconfig.json
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\bin\Debug\net6.0\Hospital.Repositories.dll
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\bin\Debug\net6.0\Hospital.Repositories.pdb
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\bin\Debug\net6.0\Hospital.Models.dll
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\bin\Debug\net6.0\Hospital.Models.pdb
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.csproj.AssemblyReference.cache
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.AssemblyInfoInputs.cache
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.AssemblyInfo.cs
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.csproj.CopyComplete
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.dll
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\obj\Debug\net6.0\refint\Hospital.Repositories.dll
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.pdb
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\obj\Debug\net6.0\Hospital.Repositories.genruntimeconfig.cache
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Repositories\obj\Debug\net6.0\ref\Hospital.Repositories.dll

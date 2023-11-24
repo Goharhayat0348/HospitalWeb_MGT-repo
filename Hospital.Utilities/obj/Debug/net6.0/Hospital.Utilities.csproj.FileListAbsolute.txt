@@ -1,0 +1,17 @@
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\bin\Debug\net6.0\Hospital.Utilities.deps.json
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\bin\Debug\net6.0\Hospital.Utilities.dll
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\bin\Debug\net6.0\Hospital.Utilities.pdb
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\bin\Debug\net6.0\Hospital.Models.dll
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\bin\Debug\net6.0\Hospital.Repositories.dll
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\bin\Debug\net6.0\Hospital.Models.pdb
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\bin\Debug\net6.0\Hospital.Repositories.pdb
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.csproj.AssemblyReference.cache
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.AssemblyInfoInputs.cache
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.AssemblyInfo.cs
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.csproj.CopyComplete
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.dll
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\obj\Debug\net6.0\refint\Hospital.Utilities.dll
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\obj\Debug\net6.0\Hospital.Utilities.pdb
+C:\Users\Gohar\source\repos\HospitalWebMGT\Hospital.Utilities\obj\Debug\net6.0\ref\Hospital.Utilities.dll
