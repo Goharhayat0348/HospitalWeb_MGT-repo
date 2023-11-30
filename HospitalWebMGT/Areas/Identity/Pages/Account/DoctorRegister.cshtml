@@ -20,11 +20,11 @@
             </div>
             <div class="form-floating">
                 <select asp-for="Input.Gender" asp-items="@Html.GetEnumSelectList<Gender>()" class="form-control" aria-required="true">
-                    <option value="-1"> 
+                    <option value="-1">
                         Select Gender
                     </option>
                 </select>
-                <label asp-for="Input.Gender" ></label>
+                <label asp-for="Input.Gender"></label>
                 <span asp-validation-for="Input.Gender" class="text-danger"></span>
             </div>
             <div class="form-floating">
@@ -75,9 +75,7 @@
                 </div>
                 <span asp-validation-for="Input.IsDoctor" class="text-danger"></span>
             </div>
-
-
-
+            <br />
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
         </form>
     </div>

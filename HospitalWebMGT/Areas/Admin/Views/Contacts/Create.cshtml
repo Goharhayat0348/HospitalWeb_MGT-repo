@@ -4,9 +4,8 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1 id="Heading" class="text-center">ADD NEW CONTACT</h1>
 
-<h4>ContactViewModel</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -28,13 +27,14 @@
                 <input asp-for="HospitalInfoId" class="form-control" />
                 <span asp-validation-for="HospitalInfoId" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
+<br />
 <div>
     <a asp-action="Index">Back to List</a>
 </div>

@@ -36,7 +36,6 @@ namespace Hospital.Utilities
             }
             catch (Exception)
             {
-
                 throw;
             }
             if (!_roleManager.RoleExistsAsync(WebSitiesRoles.WebSite_Admin).GetAwaiter().GetResult())
@@ -44,7 +43,6 @@ namespace Hospital.Utilities
                 _roleManager.CreateAsync(new IdentityRole(WebSitiesRoles.WebSite_Admin)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(WebSitiesRoles.WebSite_Patients)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(WebSitiesRoles.WebSite_Dotor)).GetAwaiter().GetResult();
-
                 _userManager.CreateAsync(new ApplicationUser
                 {
                     UserName="Gohar",

@@ -18,7 +18,6 @@ namespace Hospital.Services
             _unitofWork = unitofWork;
         }
 
-
         public void DeleteContact(int id)
         {
             var model = _unitofWork.GenericRepository<Contact>().GetById(id);
@@ -35,15 +34,11 @@ namespace Hospital.Services
             {
                 int ExcludeRecords = (pageSize * pageNumber) - pageSize;
                 var modelList = _unitofWork.GenericRepository<Contact>().GetAll(includeProperties:"Hospital").Skip(ExcludeRecords).Take(pageSize).ToList();
-
                 totalCount = _unitofWork.GenericRepository<Contact>().GetAll().ToList().Count;
-
                 vmList = ConvertModelToViewModelList(modelList);
-
             }
             catch (Exception)
             {
-
                 throw;
             }
 
@@ -56,7 +51,6 @@ namespace Hospital.Services
             };
             return result;
         }
-
 
         public ContactViewModel GetContactById(int contactId)
         {
@@ -79,8 +73,6 @@ namespace Hospital.Services
             ModelById.Phone = contact.Phone;
             ModelById.Email = contact.Email;
             ModelById.HospitalId = contact.HospitalInfoId;
-           
-
             _unitofWork.GenericRepository<Contact>().Update(ModelById);
             _unitofWork.Save();
         }

@@ -11,7 +11,6 @@ namespace Hospital.ViewModel
     public class TimingViewModel
     {
         public int Id { get; set; }
-
         public DateTime ScheduleDate { get; set; }
         public int MorningShiftStartTime { get; set; }
         public int MorningShiftEndTime { get; set; }
@@ -25,11 +24,8 @@ namespace Hospital.ViewModel
         List<SelectListItem> afternoonShiftEnd = new List<SelectListItem>();
         public ApplicationUser Doctor { get; set; }
 
-
-
         public TimingViewModel()
         {
-
         }
 
         public TimingViewModel(Timing model)
@@ -49,7 +45,7 @@ namespace Hospital.ViewModel
             return new Timing
             {
                 Id = model.Id,
-                Date = model.ScheduleDate,
+                Date =model.ScheduleDate,
                 MorningShiftStartTime = model.MorningShiftStartTime,
                 MorningShiftEndTime = model.MorningShiftEndTime,
                 AfternoonShiftStartTime = model.AfternoonShiftStartTime,

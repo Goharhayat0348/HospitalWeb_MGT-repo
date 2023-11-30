@@ -1,0 +1,63 @@
+﻿@model Hospital.ViewModel.TimingViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>TimingViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @Html.HiddenFor(m=>m.Id)
+            <div class="form-group">
+                <label asp-for="ScheduleDate" class="control-label"></label>
+                <input asp-for="ScheduleDate" class="form-control" />
+                <span asp-validation-for="ScheduleDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MorningShiftStartTime" class="control-label"></label>
+                <input asp-for="MorningShiftStartTime" class="form-control" />
+                <span asp-validation-for="MorningShiftStartTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MorningShiftEndTime" class="control-label"></label>
+                <input asp-for="MorningShiftEndTime" class="form-control" />
+                <span asp-validation-for="MorningShiftEndTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AfternoonShiftStartTime" class="control-label"></label>
+                <input asp-for="AfternoonShiftStartTime" class="form-control" />
+                <span asp-validation-for="AfternoonShiftStartTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AfternoonShiftEndTime" class="control-label"></label>
+                <input asp-for="AfternoonShiftEndTime" class="form-control" />
+                <span asp-validation-for="AfternoonShiftEndTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Duration" class="control-label"></label>
+                <input asp-for="Duration" class="form-control" />
+                <span asp-validation-for="Duration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

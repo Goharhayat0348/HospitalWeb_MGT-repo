@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Hospital.ViewModel.TimingViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 id="Heading" class="text-center">TIMMING LIST</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ScheduleDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MorningShiftStartTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MorningShiftEndTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AfternoonShiftStartTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AfternoonShiftEndTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Duration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ScheduleDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MorningShiftStartTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MorningShiftEndTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AfternoonShiftStartTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AfternoonShiftEndTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Duration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

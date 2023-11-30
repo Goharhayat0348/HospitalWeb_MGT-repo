@@ -53,7 +53,7 @@ namespace HospitalWebMGT.Areas.Doctor.Controllers
             TimingViewModel vm = new TimingViewModel();
             vm.ScheduleDate = DateTime.Now;
             vm.ScheduleDate = vm.ScheduleDate.AddDays(1);
-            return View();
+            return View(vm);
         }
 
         [HttpPost]
@@ -96,7 +96,6 @@ namespace HospitalWebMGT.Areas.Doctor.Controllers
             _doctorService.InsertTiming(vm);
             return RedirectToAction("Index");
         }
-
 
         public IActionResult Delete(int id)
         {

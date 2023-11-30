@@ -5,9 +5,7 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
-
-<h4>RoomViewModel</h4>
+<h1 id="Heading" class="text-center">ADD NEW ROOM</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -28,28 +26,20 @@
                 <label asp-for="Status" class="control-label"></label>
                 <input asp-for="Status" class="form-control" />
                 <span asp-validation-for="Status" class="text-danger"></span>
-            </div>
-           @* <div class="form-floating">
-                <select asp-for="HospitalInfoId" asp-items="@Html.GetEnumSelectList<int>()" class="form-control">
-                    <option value="-1">
-                        Select Hospital
-                    </option>
-                </select>
-                <label asp-for="HospitalInfoId"></label>
-                <span asp-validation-for="HospitalInfoId" class="text-danger"></span>
-            </div>*@
+            </div>        
             <div class="form-group">
                 <label asp-for="HospitalInfoId" class="control-label"></label>
                 <input asp-for="HospitalInfoId" class="form-control" />
                 <span asp-validation-for="HospitalInfoId" class="text-danger"></span>
             </div>
+            <br />
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-
+<br />
 <div>
     <a asp-action="Index">Back to List</a>
 </div>

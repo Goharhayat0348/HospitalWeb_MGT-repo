@@ -7,7 +7,6 @@ namespace HospitalWebMGT.Areas.Admin.Controllers
     public class UsersController : Controller
     {
         private IApplicationUserService _userService;
-
         public UsersController(IApplicationUserService userService)
         {
             _userService = userService;
@@ -22,5 +21,6 @@ namespace HospitalWebMGT.Areas.Admin.Controllers
         {
             return View(_userService.GetAllDoctor(PageNumber, PageSize));
         }
+       
     }
 }

@@ -1,23 +1,22 @@
 ﻿@using Hospital.Models
 @model Hospital.ViewModel.TimingViewModel
 
+
+<h1 id="Heading" class="text-center">TIMMING</h1>
+
 <form asp-action="AddTiming">
-    <div class="form-group">
-        <label asp-for="Doctor.Id" class="control-label"></label>
-        <input asp-for="Doctor.Id" class="form-control" />
-        <span asp-validation-for="Doctor.Id" class="text-danger"></span>
-    </div>
-    <div class="form-floating">
-        <input asp-for="ScheduleDate" class="form-control" aria-required="true" />
-        <label asp-for="ScheduleDate"></label>
-        <span asp-validation-for="ScheduleDate" class="text-danger"></span>
-    </div>
+   
+    
     <div class="form-floating">
         <select asp-for="Status" asp-items="@Html.GetEnumSelectList<Status>()" class="form-control"></select>
         <label asp-for="Status"></label>
         <span asp-validation-for="Status" class="text-danger"></span>
     </div>
-
+    <div class="form-floating">
+        <input asp-for="Duration" class="form-control" aria-required="true" />
+        <label asp-for="Duration"></label>
+        <span asp-validation-for="Duration" class="text-danger"></span>
+    </div>
 
 
     <div>
@@ -41,10 +40,6 @@
     </div>
 
 
-
-
-
-
-    <input type="submit" value="Submit" class="btn btn-primary" />
+    <input type="submit" value="submit" class="btn btn-primary" />
 
 </form>

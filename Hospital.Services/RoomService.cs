@@ -17,9 +17,7 @@ namespace Hospital.Services
         {
             _unitofWork = unitofWork;
         }
-
        
-
         public void DeleteRoom(int id)
         {
             var model = _unitofWork.GenericRepository<Room>().GetById(id);
@@ -35,18 +33,13 @@ namespace Hospital.Services
             try
             {
                 int ExcludeRecords = (pageSize * pageNumber) - pageSize;
-
                 var modelList = _unitofWork.GenericRepository<Room>().GetAll(includeProperties:"Hospital")
-                    .Skip(ExcludeRecords).Take(pageSize).ToList();
-
+                .Skip(ExcludeRecords).Take(pageSize).ToList();
                 totalCount = _unitofWork.GenericRepository<Room>().GetAll().ToList().Count;
-
                 vmList = ConvertModelToViewModelList(modelList);
-
             }
             catch (Exception)
             {
-
                 throw;
             }
 
@@ -60,16 +53,12 @@ namespace Hospital.Services
             return result;
         }
 
-        
-
         public RoomViewModel GetRoomById(int RoomId)
         {
             var model = _unitofWork.GenericRepository<Room>().GetById(RoomId);
             var vm = new RoomViewModel(model);
             return vm;
-        }
-
-       
+        }  
 
         public void InsertRoom(RoomViewModel Room)
         {
@@ -77,8 +66,6 @@ namespace Hospital.Services
             _unitofWork.GenericRepository<Room>().Add(model);
             _unitofWork.Save();
         }
-
-       
 
         public void UpdateRoom(RoomViewModel Room)
         {
@@ -88,7 +75,6 @@ namespace Hospital.Services
             ModelById.RoomNumber = Room.RoomNumber;
             ModelById.Status = Room.Status;
             ModelById.HospitalId = Room.HospitalInfoId;
-           
             _unitofWork.GenericRepository<Room>().Update(ModelById);
             _unitofWork.Save();
         }

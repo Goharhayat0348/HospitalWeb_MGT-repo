@@ -5,11 +5,8 @@
     ViewData["Title"] = "AllDoctors";
 }
 
-<h1>AllDoctors</h1>
+<h1 id="Heading" class="text-center">All Doctors</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -18,10 +15,7 @@
             </th>
             <th>
                Email
-            </th>
-            <th>
-                UserName
-            </th>
+            </th>         
             <th>
                 City
             </th>
@@ -34,7 +28,7 @@
             <th>
                 Specialist
             </th>
-            <th></th>
+            
         </tr>
     </thead>
     <tbody>
@@ -45,10 +39,7 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UserName)
-            </td>
+            </td>          
             <td>
                 @Html.DisplayFor(modelItem => item.City)
             </td>
@@ -60,12 +51,7 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Specialist)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
+            </td>           
         </tr>
 }
     </tbody>

@@ -29,5 +29,15 @@
 	<ItemGroup>
 	  <Folder Include="wwwroot\Images\" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Content Update="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js">
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	  <Content Update="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map">
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	</ItemGroup>
 
 </Project>

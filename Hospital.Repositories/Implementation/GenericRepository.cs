@@ -92,16 +92,12 @@ namespace Hospital.Repositories.Implementation
             {
                 return query.ToList(); 
             }
-
-            
         }
-
 
         public T GetById(object id)
         {
             return dbSet.Find(id);
         }
-
 
         public async Task<T> GetByIdAsync(object id)
         {

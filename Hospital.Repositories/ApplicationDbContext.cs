@@ -31,5 +31,6 @@ namespace Hospital.Repositories
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<TestPrice> TestPrices { get; set; }
+        public DbSet<Timing> Timings { get; set; }
     }
 }

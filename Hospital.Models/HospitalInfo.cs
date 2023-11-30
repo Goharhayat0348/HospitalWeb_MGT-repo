@@ -8,7 +8,6 @@ namespace Hospital.Models
 {
     public class HospitalInfo
     {
-
         public int Id { get; set; }
         public string Name { get; set; }
         public string Type { get; set; }
@@ -17,6 +16,5 @@ namespace Hospital.Models
         public string Country { get; set; }
         public ICollection<Room> Rooms { get; set; }
         public ICollection<Contact> Contacts { get; set; }
-       
     }
 }

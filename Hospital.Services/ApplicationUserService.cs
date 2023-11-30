@@ -26,18 +26,13 @@ namespace Hospital.Services
             try
             {
                 int ExcludeRecords = (PageSize * PageNumber) - PageSize;
-
                 var modelList = _unitofWork.GenericRepository<ApplicationUser>().GetAll()
-                    .Skip(ExcludeRecords).Take(PageSize).ToList();
-
+               .Skip(ExcludeRecords).Take(PageSize).ToList();
                 totalCount = _unitofWork.GenericRepository<ApplicationUser>().GetAll().ToList().Count;
-
                 vmList = ConvertModelToViewModelList(modelList);
-
             }
             catch (Exception)
             {
-
                 throw;
             }
 
@@ -64,18 +59,13 @@ namespace Hospital.Services
             try
             {
                 int ExcludeRecords = (PageSize * PageNumber) - PageSize;
-
                 var modelList = _unitofWork.GenericRepository<ApplicationUser>().GetAll(x=>x.IsDoctor==true)
-                    .Skip(ExcludeRecords).Take(PageSize).ToList();
-
+                .Skip(ExcludeRecords).Take(PageSize).ToList();
                 totalCount = _unitofWork.GenericRepository<ApplicationUser>().GetAll(x => x.IsDoctor == true).ToList().Count;
-
                 vmList = ConvertModelToViewModelList(modelList);
-
             }
             catch (Exception)
             {
-
                 throw;
             }
 

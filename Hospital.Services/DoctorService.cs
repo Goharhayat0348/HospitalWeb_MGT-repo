@@ -33,18 +33,13 @@ namespace Hospital.Services
             try
             {
                 int ExcludeRecords = (pageSize * pageNumber) - pageSize;
-
                 var modelList = _unitofWork.GenericRepository<Timing>().GetAll()
-                    .Skip(ExcludeRecords).Take(pageSize).ToList();
-
+                .Skip(ExcludeRecords).Take(pageSize).ToList();
                 totalCount = _unitofWork.GenericRepository<Timing>().GetAll().ToList().Count;
-
                 vmList = ConvertModelToViewModelList(modelList);
-
             }
             catch (Exception)
             {
-
                 throw;
             }
 
@@ -96,7 +91,6 @@ namespace Hospital.Services
             ModelById.MorningShiftEndTime = timing.MorningShiftEndTime;
             ModelById.AfternoonShiftStartTime = timing.AfternoonShiftStartTime;
             ModelById.AfternoonShiftEndTime = timing.AfternoonShiftEndTime;
-
             _unitofWork.GenericRepository<Timing>().Update(ModelById);
             _unitofWork.Save();
         }

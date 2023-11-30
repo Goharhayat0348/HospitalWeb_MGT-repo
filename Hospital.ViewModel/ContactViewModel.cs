@@ -17,7 +17,6 @@ namespace Hospital.ViewModel
 
         public ContactViewModel()
         {
-
         }
 
         public ContactViewModel(Contact model)

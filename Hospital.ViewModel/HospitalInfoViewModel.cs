@@ -16,10 +16,8 @@ namespace Hospital.ViewModel
         public string PinCode { get; set; }
         public string Country { get; set; }
 
-
         public HospitalInfoViewModel()
         {
-                
         }
 
         public HospitalInfoViewModel(HospitalInfo model)
@@ -30,7 +28,6 @@ namespace Hospital.ViewModel
             City = model.City;
             PinCode = model.PinCode;
             Country = model.Country;
-
         }
 
         public HospitalInfo ConvertViewModel(HospitalInfoViewModel model)
@@ -42,7 +39,6 @@ namespace Hospital.ViewModel
                 City = model.City,
                 PinCode = model.PinCode,
                 Country = model.Country
-            
             };
         }
 

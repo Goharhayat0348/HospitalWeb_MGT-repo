@@ -45,12 +45,10 @@ namespace HospitalWebMGT.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
-        
         public IActionResult Delete(int id)
         {
             _hospitalInfo.DeleteHospitalInfo(id);
             return RedirectToAction("Index");
         }
-
     }
 }

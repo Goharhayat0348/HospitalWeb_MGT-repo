@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\HospitalWebMGT.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\Images\\0728a9c9-4b8b-44b3-97c8-172b08779b83-jakob-owens-0pq9li8lgFc-unsplash.jpg",
+      "PackagePath": "staticwebassets\\Images\\0728a9c9-4b8b-44b3-97c8-172b08779b83-jakob-owens-0pq9li8lgFc-unsplash.jpg"
+    },
+    {
       "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\Images\\16ae07f0-3049-453a-96cc-ebfc8315030c_download (1).jpg",
       "PackagePath": "staticwebassets\\Images\\16ae07f0-3049-453a-96cc-ebfc8315030c_download (1).jpg"
     },
@@ -25,6 +29,14 @@
       "PackagePath": "staticwebassets\\Images\\4ec7a5e1-ad7f-4daa-84b3-5427ce30ca1c-1086 655 pexel.jpg"
     },
     {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\Images\\87dfa07e-a345-4acf-bbdc-b4a0845219a8-download (4).jpg",
+      "PackagePath": "staticwebassets\\Images\\87dfa07e-a345-4acf-bbdc-b4a0845219a8-download (4).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\Images\\9f0c0a0f-0874-43ee-bfc4-a3a3988274a9-doctor (1).png",
+      "PackagePath": "staticwebassets\\Images\\9f0c0a0f-0874-43ee-bfc4-a3a3988274a9-doctor (1).png"
+    },
+    {
       "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\Images\\aed4edf4-b626-4b66-a747-b5bea7cff461_icons8_customer2.ico",
       "PackagePath": "staticwebassets\\Images\\aed4edf4-b626-4b66-a747-b5bea7cff461_icons8_customer2.ico"
     },
@@ -33,8 +45,20 @@
       "PackagePath": "staticwebassets\\Images\\cc8d7aa1-d7a0-4557-ae19-bcc708de4190_icons8_customer2.ico"
     },
     {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\Images\\d8d4ebe6-90b9-4e46-a619-d1bd10f6ab36-321093357_110931241783892_783560541065199873_n.jpg",
+      "PackagePath": "staticwebassets\\Images\\d8d4ebe6-90b9-4e46-a619-d1bd10f6ab36-321093357_110931241783892_783560541065199873_n.jpg"
+    },
+    {
       "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\Images\\edda0b1b-8708-4f05-ac5f-dff777033ae6_doctor (1).png",
       "PackagePath": "staticwebassets\\Images\\edda0b1b-8708-4f05-ac5f-dff777033ae6_doctor (1).png"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
     },
     {
       "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\css\\site.css",
@@ -43,6 +67,54 @@
     {
       "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
     },
     {
       "Id": "C:\\Users\\Gohar\\source\\repos\\HospitalWebMGT\\HospitalWebMGT\\wwwroot\\js\\site.js",

@@ -25,7 +25,6 @@ namespace Hospital.Services
             _unitofWork.Save();
         }
 
-
         public PagedResult<HospitalInfoViewModel> GetAll(int pageNumber, int pageSize)
         {
             var vm = new HospitalInfoViewModel();
@@ -35,15 +34,11 @@ namespace Hospital.Services
             {
                 int ExcludeRecords = (pageSize * pageNumber) - pageSize;
                 var modelList = _unitofWork.GenericRepository<HospitalInfo>().GetAll().Skip(ExcludeRecords).Take(pageSize).ToList();
-
                 totalCount = _unitofWork.GenericRepository<HospitalInfo>().GetAll().ToList().Count;
-
                 vmList = ConvertModelToViewModelList(modelList);
-
             }
             catch (Exception)
             {
-
                 throw;
             }
 

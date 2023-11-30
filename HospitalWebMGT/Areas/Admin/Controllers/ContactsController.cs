@@ -24,7 +24,6 @@ namespace HospitalWebMGT.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            //ViewBag.hopital = new SelectList(_hospitalInfo.GetAll(), "Id", "Name");
             var viewModel = _contact.GetContactById(id);
             return View(viewModel);
         }

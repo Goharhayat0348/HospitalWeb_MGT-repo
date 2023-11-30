@@ -49,7 +49,6 @@ namespace HospitalWebMGT.Areas.Admin.Controllers
             _room.InsertRoom(vm);          
             return RedirectToAction("Index");
         }
-       
 
         public IActionResult Delete(int id)
         {
